@@ -1,7 +1,4 @@
 // Specific CSS for your home-page
-a {
-  color: grey;
-}
 
 a:hover {
   text-decoration: none;
@@ -9,6 +6,7 @@ a:hover {
   font-size: 20px;
 }
 
-.container {
-  margin: 30px;
+.container-card {
+  width: 1000px;
+  margin: 30px auto;
 }

@@ -12,3 +12,47 @@
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
+
+.btn-show a {
+  color: white;
+}
+
+.btn-show {
+  background-color: darkgrey;
+  border-radius: 10px;
+}
+
+.btn-back a {
+  color: white;
+}
+
+.btn-back {
+  margin-top: 30px;
+  background-color: darkgrey;
+  border-radius: 10px;
+}
+
+a {
+  color: darkgrey;
+}
+
+.ingredient {
+  background-color: white;
+  margin-top: 20px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.description {
+  background-color: white;
+  margin-top: 20px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+
+
+.container h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
