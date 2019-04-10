@@ -32,11 +32,16 @@ asset-url('bar.jpeg');
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
 
-.btn {
+.banner a {
   background-color: white;
+  opacity: .8;
   border-radius: 10px;
+  padding: 10px 30px;
 }
 
-.btn a {
-  color: darkgrey;
+.banner a:hover {
+  background-color: #F8D200;
+  color: white;
+  opacity: 1;
+  text-shadow: 0 0 15px rgba(0, 0, 0, 1);
 }
