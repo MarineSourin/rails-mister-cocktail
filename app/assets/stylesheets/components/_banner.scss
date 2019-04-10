@@ -5,9 +5,6 @@
   text-align: center;
   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
 asset-url('bar.jpeg');
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
 }
 .content {
@@ -21,7 +18,7 @@ asset-url('bar.jpeg');
   margin: 0;
   color: #F8D200;
   text-shadow: 0 0 15px rgba(255, 226, 0, 1);
-  font-size: 32px;
+  font-size: 40px;
   font-weight: bold;
 }
 

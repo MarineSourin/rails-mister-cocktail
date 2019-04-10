@@ -2,22 +2,20 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: absolute;
-  bottom: 0;
   height: 300px;
 }
 .card {
   height: 175px;
+  width: 300px;
   text-shadow: 0 1px 3px rgba(0,0,0,0.6);
   background-size: cover !important;
   background-position: center;
   color: white;
-  position: relative;
 }
 .card-description {
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
+  // position: absolute;
+  // bottom: 10px;
+  // left: 10px;
 }
 .card-description h2 {
   font-size: 24px;
