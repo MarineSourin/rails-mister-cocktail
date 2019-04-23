@@ -19,8 +19,16 @@
   border-radius: 10px;
 }
 
-.btn-show .fas {
+.btn-show:hover {
+  background-color: #F8D200;
+}
+
+.fas {
   color: white;
+}
+
+a:hover {
+  text-decoration: none !important;
 }
 
 .btn-back a {
@@ -33,45 +41,33 @@
   border-radius: 10px;
 }
 
-// a {
-//   color: darkgrey;
-// }
+.btn-back:hover {
+  background-color: #F8D200;
+}
+
 
 .information {
   background-color: rgba(255,255,255,0.4);
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
-  padding: 20px;
+  padding: 40px;
   position: relative;
   height: 650px;
 }
 
 .ingredient {
-  // background-color: rgba(255,255,255,0.6);
-  margin-top: 20px;
-  padding: 10px;
   position: absolute;
   top: 0;
+  left: 15px;
   width: 350px;
+  p {
+    line-height: 40px;
+  }
 }
 
-// .ingredient p {
-//   color: grey;
-// }
-
 .description {
-  // background-color: rgba(255,255,255,0.6);
-  margin-top: 20px;
-  padding: 10px;
   position: absolute;
-  bottom: 0;
+  right: 0;
+  top: 0;
   width: 500px;
 }
 
-// .description p {
-//   color: grey;
-// }
-
-// .container h2 {
-//   margin-top: 0;
-//   margin-bottom: 10px;
-// }

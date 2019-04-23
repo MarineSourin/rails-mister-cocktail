@@ -1,0 +1,36 @@
+.creation {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 160px);
+
+}
+
+.simple_form {
+  width: 500px;
+}
+
+.upload-photo {
+  border: #d3d3d3 solid 1px;
+  padding: 16px 24px;
+  cursor: pointer;
+  font-weight: 500;
+  background: white;
+  border-radius: 2px;
+}
+
+a {
+  color: grey;
+}
+
+
+.btn-add {
+  border: #d3d3d3 solid 1px;
+  padding: 16px 24px;
+  cursor: pointer;
+  font-weight: 500;
+  background: white;
+  border-radius: 2px;
+}

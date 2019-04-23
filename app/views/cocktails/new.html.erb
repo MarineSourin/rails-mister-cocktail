@@ -1,9 +1,13 @@
-<%= simple_form_for @cocktail do |f| %>
-  <%= f.input :name %>
-  <%= f.input :description %>
-  <%= f.input :photo %>
-  <%= f.input :photo_cache, as: :hidden %>
-  <%= f.submit "Add a cocktail" %>
-<% end %>
+<div class="container creation">
+  <%= simple_form_for @cocktail do |f| %>
+    <%= f.input :name, label: "Enter the name of your cocktail" %>
+    <%= f.input :description, label: "Enter a small despcription of the cocktail" %>
+    <%= f.input :photo, input_html: { class: 'hidden' }, label_html: { class: 'upload-photo'}, label: '📷 Upload a photo' %>
+    <%= f.input :photo_cache, as: :hidden %>
+    <%= f.submit "Add a cocktail", class: 'btn btn-add' %>
+  <% end %>
+  <p class= "btn btn-back"><%= link_to cocktails_path do %>
+    <i class='fas fa-arrow-circle-left'></i>
+  <% end %></p>
+</div>
 
-<p><%= link_to "Cancel", cocktails_path %></p>
