@@ -1,11 +1,11 @@
 .creation {
-  width: 500px;
+  width: 800px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: calc(100vh - 160px);
-
+  text-align: center;
 }
 
 .simple_form {
@@ -31,6 +31,11 @@ a {
   padding: 16px 24px;
   cursor: pointer;
   font-weight: 500;
-  background: white;
-  border-radius: 2px;
+  background: #F8D200;
+  border-radius: 5px;
+}
+
+.btn-add:hover {
+  color: white;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
 }

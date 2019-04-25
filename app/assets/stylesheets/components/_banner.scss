@@ -1,14 +1,16 @@
 .banner {
   background-size: cover;
   background-position: center;
-  height: calc(100vh - 70px);
+  height: 100vh;
   text-align: center;
   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
 asset-url('bar.jpeg');
   width: 100%;
+  position: absolute;
+  top: 0;
 }
 .content {
-  height: calc(100vh - 70px);
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
