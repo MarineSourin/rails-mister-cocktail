@@ -7,11 +7,15 @@
   justify-content: center;
   align-items: center;
   color: white;
-  font-size: 24px;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   padding: 30px;
+  h1 {
+    color: #F8D200;
+    text-shadow: 0 0 15px rgba(255, 226, 0, 1);
+    margin-bottom: 40px;
+  }
 }
 
 .btn-show {
@@ -52,13 +56,29 @@ a:hover {
   padding: 40px;
   position: relative;
   height: 650px;
+  width: 900px;
+  h2 {
+    font-size: 24px;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    text-decoration: underline;
+  }
+  p {
+    font-size: 18px;
+    font-weight: 300;
+  }
 }
 
 .ingredient {
   position: absolute;
   top: 0;
-  left: 15px;
-  width: 350px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 450px;
+  height: 100%;
+  // text-align: center;
   p {
     line-height: 40px;
   }
@@ -68,6 +88,12 @@ a:hover {
   position: absolute;
   right: 0;
   top: 0;
-  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 450px;
+  height: 100%;
+  border-left: 1px solid black;
 }
 
