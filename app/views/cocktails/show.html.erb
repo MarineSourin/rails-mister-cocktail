@@ -2,13 +2,13 @@
   <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('<%= cl_image_path @cocktail.photo, crop: :fill %>');">
       <h1><%= @cocktail.name %></h1>
       <div class="container information">
-        <div class="container description">
+        <!-- <div class="container description">
           <h2>Description</h2>
           <p><%= @cocktail.description %></p>
-          <p class= "btn btn-show"><%= link_to edit_cocktail_path(@cocktail) do  %>
+          <p class= "btn btn-show"><%#= link_to edit_cocktail_path(@cocktail) do  %>
             <i class="fas fa-edit"></i>
-          <% end %></p>
-        </div>
+          <#% end %></p>
+        </div> -->
 
         <div class="container ingredient">
           <h2>Ingredients</h2>
