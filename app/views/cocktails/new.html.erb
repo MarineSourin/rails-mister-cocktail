@@ -2,7 +2,7 @@
   <p>Once you have filled in the inputs below, you will be able to add you ingredients.</p><hr>
   <%= simple_form_for @cocktail do |f| %>
     <%= f.input :name, label: "Enter the name of your cocktail" %>
-    <%= f.input :description, label: "Enter a small despcription of the cocktail" %>
+    <%#= f.input :description, label: "Enter a small despcription of the cocktail" %>
     <%= f.input :photo, input_html: { class: 'hidden' }, label_html: { class: 'upload-photo'}, label: '📷 Upload a photo' %>
     <%= f.input :photo_cache, as: :hidden %>
     <%= f.submit "Add a cocktail", class: 'btn btn-add' %>
